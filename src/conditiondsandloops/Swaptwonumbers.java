@@ -19,7 +19,7 @@ public class Swaptwonumbers {
 		
 		int c = 0;
 		
-		c= a+b; //60 
+		c= a+b; //60  
 		a = c-a; // 60-10 = 50
 		b= c-a; // 60-50 = 10
 		
