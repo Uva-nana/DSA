@@ -1,4 +1,5 @@
 package arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Multidimensionalarray {
@@ -21,5 +22,14 @@ public class Multidimensionalarray {
             }
             System.out.println();
         }
+        
+        //Using enhanced for loop
+        
+        for (int [] a: arrays) {
+        	System.out.println(Arrays.toString(a));
+        	//System.out.println(deepseek.toString(a));
+        }
+        
+        System.out.println("Full 2D array: " + Arrays.deepToString(arrays));
     }
 }
