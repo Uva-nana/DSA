@@ -36,11 +36,11 @@ public class MyArrayListExample {
         for (int i = 0; i<5; i++) {
         	list.add(sc.nextInt());}
        
-        System.out.println("Newly added items:");
+        
         for (int i = oldsize; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
-//10 ; 10<10 false 
+
         
             
         
