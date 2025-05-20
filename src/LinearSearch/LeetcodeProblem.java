@@ -10,7 +10,7 @@ public class LeetcodeProblem {
 	public static void main(String[] args) {
 		int[] nums = {12, 345, 2, 6, 7896}; 
 		int result = findthenumbers(nums);
-		System.out.println("The number of even digits in an given array is :" +result);  // Output: 2
+		System.out.println("The Count of even digits in an given  array is :" +result);  // Output: 2
 	}
 
 	static int findthenumbers(int[] nums) {
